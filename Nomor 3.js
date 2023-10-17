@@ -1,17 +1,20 @@
-function printTriangle(num) {
 
-    if (!isNaN(num) ) {
-        console.log("Data harus number");
-      }
-    
-    let str = "";
-    for (let i = 1; i <= num; i++) {
-      for (var s = 1; s <= i; s++) {
-      str += s;
-      }
-       str += '\n'
+
+
+let printSegitiga = '5';
+let hasil = "";
+if (isNaN (printSegitiga) ) {
+          console.log("Data harus number");
+}else{
+  
+  for (let i = 1; i <= printSegitiga; i++) {
+    for (var s = 1; s <= i; s++) {
+      hasil += s;
     }
-    
-   console.log(str);
+    hasil += '\n'
   }
-  printTriangle(5);
+}
+
+console.log(hasil);
+
+
