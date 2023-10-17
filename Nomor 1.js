@@ -21,13 +21,12 @@ const biodata = {
     {
         skillName : "Java Scipt",
         level : "Beginner",
-
     },
-    {
-        
+    {  
         skillName : "PHP",
         level : "Beginner",
      }
    ] ,
    interestCoding : true,
 }
+console.log(biodata);
