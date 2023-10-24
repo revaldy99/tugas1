@@ -3,7 +3,13 @@ let bahasaInggris = 89;
 let ipa = 69;
 let mtk = 80;
 let un = "";
-rataRata = (mtk+bahasaIndonesia+bahasaInggris+ipa) / 4;
+if (bahasaIndonesia!=null && bahasaInggris !=null && ipa!=null &&mtk !=null){
+    rataRata = (mtk+bahasaIndonesia+bahasaInggris+ipa) / 4;
+  
+}else
+{
+    console.log("data tidak boleh kosong");
+}
 
 
 if (rataRata >= 90 ){
