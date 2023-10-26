@@ -1,4 +1,4 @@
-
+//try catch
 
 async function cekHariKerja(day){ 
    
@@ -15,7 +15,9 @@ async function cekHariKerja(day){
                 console.log('Hari ini bukan hari kerja');
                 
             }
-    }catch(error){
+    }
+     //penutup  kondisi terpenuhi
+    catch(error){
         //jika kondisinya tidak terpenuhi tampilkan catch errornya
         console.log(error.message);
     }

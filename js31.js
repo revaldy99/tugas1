@@ -1,3 +1,4 @@
+//then catch
 const cekHariKerja = (day)=>{
     return new Promise ((resolve, reject)=>{
         setTimeout(()=>{
@@ -15,7 +16,7 @@ const cekHariKerja = (day)=>{
     })
 }
 //penerapan promise then catch
-cekHariKerja('senin')
+cekHariKerja('sabtu')
   .then(dataDay => console.log(dataDay))
   //nilai yang dibawa oleh  resolve() ditampilkan dg fungsi then. akan menampilkan nilai dataDay
   .catch(err => console.log(err.message));

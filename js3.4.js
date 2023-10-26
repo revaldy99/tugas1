@@ -6,9 +6,21 @@ var b = a.then(res => getName(res.id)).then(res => res.json()) // #2 get name
 
 Promise.all([b]).then(results => {
   console.log(results[0])
-  console.log(results[1])
  
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // const getPost = () => fetch('https://jsonplaceholder.typicode.com/posts/9')
