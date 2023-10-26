@@ -5,7 +5,7 @@ async function nonton(film) {
         
       }
       else{
-        console.log('filem tidak ada');
+        console.log('film tidak ada');
       }
    
       
@@ -14,6 +14,6 @@ async function nonton(film) {
     }
   }
    
-  nonton(10);
+  nonton(0);
 
   

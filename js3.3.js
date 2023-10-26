@@ -2,7 +2,7 @@ function getUsers(offlineGa) {
     // return a promise object
     return new Promise((resolve, reject) => {
   
-      // simulate network delay
+      // simulasi network delay
       setTimeout(() => {
         const users = ['Revaldy', 'Boy', 'Budi'];
       
@@ -17,5 +17,7 @@ function getUsers(offlineGa) {
   }
   
   getUsers(false)
+  //kondisi terpenuhi
     .then(users => console.log(users))
+    //error
     .catch(err => console.log(err.message));
