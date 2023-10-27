@@ -1,5 +1,5 @@
 
-
+// reverse word
   function balikKata(kata) {
     let reverseWord = kata.split(" ").map(word => word.split("").reverse().join(""));
     hasil =  reverseWord.join(" ");

@@ -31,11 +31,12 @@ function PijarFood(harga, voucher, jarak, pajak){
     }
     SubTotal =  (harga - potongan + ongkir + pajak);
 
-    console.log('Harga : ' + harga);
+    console.log('Harga : ' + harganya);
     console.log('Potongan : ' + potongan);
     console.log('Biaya Antar : '+ongkir);
     console.log('Pajak : '+pajak);
     console.log('Sub Total : '+SubTotal)
 
 }
+//lalu panggil function
 PijarFood(75000,'PIJARFOOD5', 5,true);

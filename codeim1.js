@@ -6,4 +6,4 @@ function checkPalindrom (kata) {
     console.log('bukan polindrome')
   }
 }
-checkPalindrom('Malam')
+checkPalindrom('malam')
